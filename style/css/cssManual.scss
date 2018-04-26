@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Satisfy|Stalemate|Parisienne');
+*{
+	margin: 0px;
+	padding: 0px;	
+	font-family: Arial;
+}
+.navbar{
+	padding: 5px;
+	height: 65px;
+	color: #FFF;
+	background: #000;	
+	box-shadow: 0px 3px 20px #000;
+	/*opacity: 0.8;*/
+}
+
+.nav{
+	color: #FFF;
+}
+
+#rodape{
+	height: 50px;
+	width: 100%;
+	padding: 15px;
+	text-align: center;
+	background: #EDEDED;
+}
+
+#fundo{
+	background-image: url("img/fundo.jpg");
+	background-position: center center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size:  cover;
+	background-color: red;
+	/*filter: blur(5px);*/
+}
+
+.bloco1{
+	width: 100%;
+	height: 650px;
+	font-family: 'Parisienne', cursive;
+	color: #FFF;
+	background-color: none;
+	text-align: justify;
+	padding: 250px;
+	margin: auto;
+	text-shadow: 0px 3px 20px #000;
+}
+
+.bloco2{
+	width: 100%;
+	height: 650px;
+	color: #000;
+	background-color: #ADD8E6;
+	text-align: justify;
+	top: 0;
+}
+.well{
+	height: 100%;
+	opacity: 0.9;
+	background: none;
+	border: 3px solid #FFF;
+	border-radius: 0px;
+}
+
