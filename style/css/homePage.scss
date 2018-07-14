@@ -1,0 +1,141 @@
+/*¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬ fontes ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬ */
+@import url('https://fonts.googleapis.com/css?family=Satisfy|Stalemate|Parisienne|Sacramento|Poiret+One');
+
+/*¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬ variaveis ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬ */
+$projeto: 'Sacramento';
+
+/*¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬ classes ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬ */
+*{
+	margin: 0px;
+	padding: 0px;	
+	font-family: Arial;
+	border: none;
+}
+// .navbar{
+// 	padding: 5px;
+// 	color: #FFF;
+// 	background: #000;	
+// 	
+// 	
+// 	/*opacity: 0.8;*/
+// 	}
+
+/*¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬ IDs ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬ */
+/*#fundo{
+	background-image: url(../../img/fundo.jpg);
+	background-position: center center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size:  cover;
+	background-color: #EEEEEE;
+	}*/
+
+#nav{
+	box-shadow: 0px 3px 20px #646464;
+	border-bottom: 1px solid #FFA500;
+	background-color: #000 !important;
+	& .ml-auto{
+		
+	padding-right: 150px;
+	}
+	& a{
+	padding-left: 15px;
+		font-weight: bold;
+		color: #d46803;
+			&:hover{
+				color:rgb(255, 153, 0);
+			}
+		}
+	}
+
+#bloco1{
+	height: 600px;
+	background-color: #000;
+	background-image: url(../../img/fundoBloco1.jpg);
+	background-position: center center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size:  cover;
+	padding-top: 200px;
+	& h1{
+	font-family: 'Poiret One', cursive;
+	font-size: 4rem;
+	}
+	}
+
+#bloco2{
+	height: 400px;	
+	background: linear-gradient(to bottom, #30CFD0 0%, #1578c9 100%);
+	}
+
+#bloco3{
+	color: #FFF;
+	height: 300px;
+	padding-top: 20px;
+	background-color: rgb(27, 27, 27);
+	& p{
+		font-family: 'Sacramento', cursive;
+	}
+	}
+
+#projetos{
+	padding: 20px;
+	background: linear-gradient(to bottom, rgb(255, 255, 255) 0%, #e3e3e4 100%);
+	& .container{
+		margin: auto;
+	}
+	& .card{
+		margin-bottom: 20px;
+		box-shadow: 0px 8px 10px #b1afaf;
+	}
+	}
+
+#bloco5{
+	height: 400px;
+	background-color: rgb(174, 224, 222);
+	}
+
+
+#bloco6{
+	height: 400px;
+	background-color: #E6E6FA;
+	}
+
+#bloco7{
+	height: 400px;
+	background-color:  #FFF;
+	}
+
+#bloco8{
+	height: 200px;
+	padding-top: 50px;
+	background: linear-gradient(to bottom,  #3f3f3f 0%, #000000 100%);
+	& i{
+		margin: 30px;
+		font-size: 3.5rem;
+		color: rgb(112, 112, 112);
+		opacity: none;
+		&:hover{
+			color: rgb(192, 192, 192);
+		}
+	}
+	
+}
+#pro{
+	margin: 15px;
+}
+
+#direitos{
+	height: 100px;
+	background-color: #000;
+	color: #e3e3e4;
+	& p{
+		font-family: 'Poiret One', cursive;
+		padding-top: 15px;
+	}
+	& span{
+		color: #FFA500;
+		font-size: 20px;
+		font-family: 'Parisienne', cursive;
+	}
+}

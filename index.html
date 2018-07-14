@@ -5,24 +5,243 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Vagner Augustinho</title>
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-  <!-- Optional theme -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  
+  <!-- BS 4.1 -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">   
     
+    <!-- CSS local -->
+    <link rel="stylesheet" type="text/css" href="style/css/homePage.css">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous"> 
+    <!-- FONT AWESOME LOCAL -->
+    <link href="style/fontawesome-free-5.0.10/web-fonts-with-css/css/fontawesome-all.css" rel="stylesheet">
+    <!-- CSS ANIMATE -->
+    <link rel="stylesheet" type="text/css" href="style/css/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+
+<script src="/path/to/parallax.js"></script>
+    <!-- ROLAGEM SUAVE -->
+    <script>
+      jQuery(document).ready(function($){
+        $(".scroll").click(function (event){
+          event.preventDefault();
+          $('html,body').animate({
+            scrollTop:$(this.hash).offset().top
+          }, 1000);
+        });
+        $("html").niceScroll();
+      });
+    </script>
+
+    <script src="http://areaaperta.com/nicescroll/js/jquery.nicescroll.min.js"></script>
     
 </head>
   <body id="fundo">
-   <div class="jumbotron text-center">
-  <h3>Em manutenção!</h3>
-  
-</div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="nav">
+      <div class="container-fluid">
+        <a class="navbar-brand scroll" href="#bloco1">Vagner Augustinho</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto ">
+              <li class="nav-item">
+                <a class="nav-link" href="pages/curriculo.html">Currículo <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link scroll" href="#bloco7">Contato</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link scroll" href="#projetos">Projetos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link scroll" href="https://vagneraugustinho.github.io/acrescimoMensalidades/">Acréscimo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link scroll" href="https://vagneraugustinho.github.io/jogo/">Jogo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link scroll" href="pages/in.html">in</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link scroll" href="https://vagneraugustinho.github.io/comoUsarOmouse/">Mouse</a>
+              </li>
+            </ul>
+          </div>
+      </div>  
+    </nav>
+
+    <div class="clearfix"></div>
+
+    <div class="">
+      <div class="col-md-12" id="bloco1" >
+        <h1 class="text-center wow fadeInDownBig" data-wow-duration="1.5s" data-wow-delay="1s" >Olá!</h1>
+        <h1 class="text-center wow fadeInDownBig" data-wow-duration="1.5s" data-wow-delay="1s" >Este site está em fase de desenvolvimento!</h1>
+           
+    </div>
+
+    <div class="clearfix"></div>
+
+    <div class="col-md-12" id="bloco2">
+      <div class="container">
+        <h1 class="text-center">Histórico?</h1>
+        <h3 class="text-center">Formado em Técnologia em analise e desenvolvimento de sistemas</h3>
+      </div>
+    </div>
+
+    <div class="clearfix"></div>
+
+    <div class="col-md-12" id="bloco2">
+      <div class="container">
+        <h1 class="text-center">Porque eu gosto programar?</h1>
+      </div>
+    </div>
+
+    <div class="clearfix"></div>
+
+    <div id="bloco3" class="col-md-12">
+      <div class="container">
+            <p class="text-center display-4">Alguns projetos</p>
+      </div>
+    </div>
+
+    <div class="clearfix"></div>
+
+    <div id="projetos" class="col-md-12">
+      <p class="text-center display-4">Alguns projetos</p>
+      <div class="container">
+          <div class="row">            
+            <div class="col wow bounceInLeft" id="pro" data-wow-duration="2s" data-wow-delay="1s">
+              <h5 class="card-title font-weight-bold">Sistema Expert</h5>
+              <p class="card-text">Sistema de gestão financeira para escolas de cursos profissionalizantes.</p>
+              <p class="font-weight-light">Ferramentas: HTML, CSS3, PHP, MySql, Jquery e Bootstrap 3.</p>
+              <div class=" text-center">
+                  <a href="#" class="btn btn-primary">Visualizar</a>
+              </div>
+            </div>
+            <div class="col wow bounceInRight" id="pro" data-wow-duration="2s" data-wow-delay="1s">
+              <img class="card-img-top" src="img/1.jpg" alt="Card image cap">
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col wow rotateInDownLeft" id="pro" data-wow-duration="2s" data-wow-delay="3s">
+              <img class="card-img-top" src="img/2.jpg" alt="Card image cap">
+            </div>            
+            <div class="col wow rotateInDownLeft" id="pro" data-wow-duration="2s" data-wow-delay="3s">
+              <h5 class="card-title font-weight-bold">As aventuras de Gustinho</h5>
+              <p class="card-text">Jogo desenvolvido usando a plataforma Contruct 2D.</p>
+              <p class="font-weight-light">Ferramenta: Contruct 2D.</p>
+              <div class=" text-center">
+                  <a href="https://vagneraugustinho.github.io/jogo/" class="btn btn-primary">Visualizar</a>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div class="row">            
+            <div class="col wow rotateInDownLeft" id="pro" data-wow-duration="2s" data-wow-delay="4.5s">
+              <h5 class="card-title font-weight-bold">Acréscimo em parcelas</h5>
+              <p class="card-text">Aplicação para aplicar ajustes monetários em parcelas em atraso.</p>
+              <p class="font-weight-light">Ferramentas: HTML, CSS3, Jquery e Bootstrap 4.1.</p>
+              <div class=" text-center">
+                  <a href="https://vagneraugustinho.github.io/acrescimoMensalidades/" class="btn btn-primary">Visualizar</a>
+              </div>
+            </div>
+            <div class="col wow rotateInDownLeft" id="pro" data-wow-duration="2s" data-wow-delay="4.5s">
+              <img class="card-img-top" src="img/3.jpg" alt="Card image cap">
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col wow rotateInDownLeft" id="pro" data-wow-duration="1s" data-wow-delay="3s">
+              <img class="card-img-top" src="img/3.jpg" alt="Card image cap">
+            </div>            
+            <div class="col wow rotateInDownLeft" id="pro" data-wow-duration="1s" data-wow-delay="3s">
+              <h5 class="card-title font-weight-bold">Como usar o mouse</h5>
+              <p class="card-text">Aplicação desenvolvida para ensinar criancas, idosos ou pessoas que nunca usaram o mouse do computador.</p>
+              <p class="font-weight-light">Ferramentas: HTML, CSS3, Jquery e Bootstrap 3.</p>
+              <div class=" text-center">
+                  <a href="https://vagneraugustinho.github.io/mouse/" class="btn btn-primary">Visualizar</a>
+              </div>
+            </div>
+          </div>
+
+      </div>
+    </div>
+    
+
+      <div class="clearfix"></div>
+
+      <div class="col-md-12" id="bloco5">
+          <h1>Bloco 5</h1>
+        <h1>DIV 5</h1>
+        <p>texto do bloco 5
+        </p>
+      </div>
+
+      <div class="clearfix"></div>
+
+      <div class="col-md-12" id="bloco6">
+          <h1>Bloco 6</h1>
+        <h1>DIV 6</h1>
+        <p>texto do bloco 6
+        </p>
+      </div>
+
+      <div class="clearfix"></div>
+
+      <div class="col-md-12" class="" id="bloco7">
+          <h1>Bloco 7</h1>
+        <h1>Contato</h1>
+        <div class="row">
+           AQUI VAI SE O CONTATO 
+        </div>
+      </div><!-- termina bloco contato -->
+
+      <div class="clearfix"></div>
+
+      <div class="col-md-12" id="bloco8">
+        <ul class="nav justify-content-center">
+          <li class="nav-item wow bounceIn" data-wow-duration="2s" data-wow-delay="1s">
+            <a href=""><i class="fab fa-facebook-square" data-toggle="tooltip" data-placement="top" title="Facebook"></i></a> 
+          </li>
+          <li class="nav-item wow bounceIn" data-wow-duration="2s" data-wow-delay="1.5s">
+            <a href=""><i class="fab fa-github" data-toggle="tooltip" data-placement="top" title="Github"></i></a> 
+          </li>
+          <li class="nav-item wow bounceIn" data-wow-duration="2s" data-wow-delay="2s">
+            <a href=""><i class="fab fa-linkedin" data-toggle="tooltip" data-placement="top" title="Linkedin"></i></a> 
+          </li>
+        </ul>
+      </div>        
+      <div id="direitos">
+        <p class="text-center wow bounceIn" data-wow-duration="1s" data-wow-delay="3s">
+          &copy; Todos os direitos reservados ♣ developer: <span class="wow bounceIn" data-wow-duration="2s" data-wow-delay="3.5s"> Vagner Augustinho</span>
+        </p> 
+      </div>
+    </div>
 
 
+    <!-- JS local -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="style/js/wow.min.js"></script>
+    <!-- WOW ANIMATE -->
+    <script>
+      new WOW().init();
+    </script>
+    <script>
+    $(function () {
+      $('[data-toggle="popover"]').popover()
+      })
+
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+      })
+  </script>
 </body>
 </html>

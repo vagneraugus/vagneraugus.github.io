@@ -1,0 +1,205 @@
+@charset "UTF-8";
+/*┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼ fontes ┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼ */
+@import url("https://fonts.googleapis.com/css?family=Satisfy|Stalemate|Parisienne");
+/*┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼ classes ┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼ */
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial; }
+
+.navbar {
+  padding: 5px;
+  height: 65px;
+  color: #FFF;
+  background: #000;
+  box-shadow: 0px 3px 30px #232222;
+  border-bottom: 1px solid #FFA500;
+  /*opacity: 0.8;*/ }
+
+/*┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼ IDs ┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼┬¼ */
+#fundo {
+  background-image: url(../../img/fundo.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #EEEEEE; }
+
+#nav a {
+  font-weight: bold;
+  color: #d09c3d; }
+  #nav a:hover {
+    color: #FFF; }
+
+#rodape {
+  height: 60px;
+  width: 100%;
+  padding: 15px;
+  /*border-top: 2px solid #FFA500;*/
+  background: #000; }
+  #rodape p {
+    color: #FFF;
+    text-align: center; }
+  #rodape span {
+    color: #FFA500;
+    font-size: 20px;
+    font-family: 'Parisienne', cursive; }
+
+#contato {
+  height: 500px;
+  background-color: #FFF;
+  /*background-color: #000;
+  opacity: 0.6;*/ }
+
+#redessociais {
+  height: 100px;
+  background-color: #000;
+  background-image: url(../../img/fundoContato.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+  #redessociais #redessociais_icons {
+    height: 100px;
+    color: #FFA500; }
+    #redessociais #redessociais_icons .iconsContato {
+      padding-top: 22px;
+      font-size: 40px;
+      color: #FFA500;
+      opacity: none; }
+      #redessociais #redessociais_icons .iconsContato:hover {
+        color: #FFF; }
+
+#bloco1 {
+  width: 100%;
+  height: 650px;
+  font-family: 'Parisienne', cursive;
+  color: #FFF;
+  background-color: none;
+  text-align: justify;
+  margin: auto; }
+  #bloco1 #b1 {
+    text-shadow: 0px 3px 20px #000;
+    background: none;
+    border: none;
+    border-radius: none;
+    padding-top: 150px; }
+    #bloco1 #b1 a {
+      color: #F00; }
+    #bloco1 #b1 #imgeu {
+      margin-top: 1%;
+      border-radius: 50%;
+      border: 4px solid #FFF;
+      box-shadow: 1px 10px 30px #424242;
+      filter: grayscale(100%); }
+      #bloco1 #b1 #imgeu:hover {
+        filter: grayscale(0%); }
+
+#bloco2 {
+  width: 100%;
+  height: 300px;
+  color: #000;
+  background-color: #5F9EA0;
+  text-align: justify;
+  top: 0;
+  background-image: url(../../img/fundolocalizacao.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+  #bloco2 #b2 {
+    background: none;
+    border: none;
+    border-radius: 0px;
+    box-shadow: none; }
+
+#bloco3 {
+  width: 100%;
+  height: 300px;
+  color: #3aaca6;
+  background-color: white;
+  text-align: justify;
+  top: 0; }
+  #bloco3 #b3 {
+    background: none;
+    border: none;
+    border-radius: 0px;
+    box-shadow: none; }
+    #bloco3 #b3 a {
+      text-decoration: none;
+      color: #3aaca6; }
+      #bloco3 #b3 a:hover {
+        color: #FFA500; }
+  #bloco3 i {
+    font-size: 1.6em; }
+  #bloco3 #iconsCont {
+    margin-top: 25px; }
+
+#bloco4 {
+  height: 400px;
+  background-color: #dfdfdf;
+  background-attachment: fixed;
+  /*background: #5F9EA0;*/
+  border-top: 3px solid #FFF;
+  border-bottom: 3px solid #FFF; }
+  #bloco4 #b4 {
+    background: none;
+    border: none;
+    border-radius: 0px;
+    box-shadow: none; }
+  #bloco4 .formacao {
+    margin-top: 40px; }
+
+#bloco5 {
+  height: 300px;
+  background: #FFF; }
+  #bloco5 #b5 {
+    border: none;
+    border-radius: 0px;
+    box-shadow: none; }
+    #bloco5 #b5 #cs {
+      background: #d4faf9;
+      height: 250px !important; }
+  #bloco5 .capacitacao {
+    height: 50px;
+    width: 100%;
+    margin: 0px;
+    background-color: #aee0de; }
+    #bloco5 .capacitacao h1 {
+      margin-top: 4px;
+      color: #FFF; }
+
+#bloco6 {
+  height: 400px;
+  background-color: #E6E6FA;
+  background-attachment: fixed;
+  /*background: #5F9EA0;*/
+  border-top: 3px solid #FFF;
+  border-bottom: 3px solid #FFF; }
+  #bloco6 #b6 {
+    background: none;
+    border: none;
+    border-radius: 0px;
+    box-shadow: none; }
+  #bloco6 .formacao {
+    margin-top: 40px; }
+
+#bloco7 {
+  height: 300px;
+  background-image: url(../../img/fundoprofissional.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #852b2b;
+  border-top: 3px solid #FFF;
+  border-bottom: 3px solid #FFF; }
+  #bloco7 #b7 {
+    border: none;
+    border-radius: 0px;
+    box-shadow: none;
+    background: none; }
+  #bloco7 #iconProfissao {
+    font-size: 50px; }
+
+/*# sourceMappingURL=curri.css.map */
