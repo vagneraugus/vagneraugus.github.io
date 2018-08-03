@@ -49,7 +49,7 @@ $projeto: 'Sacramento';
 	}
 
 #bloco1{
-	height: 600px;
+	height: 800px;
 	background-color: #000;
 	background-image: url(../../img/fundoBloco1.jpg);
 	background-position: center center;
@@ -63,35 +63,122 @@ $projeto: 'Sacramento';
 	}
 	}
 
-#bloco2{
+#sobreMim{
 	height: 400px;	
-	background: linear-gradient(to bottom, #30CFD0 0%, #1578c9 100%);
+	background: linear-gradient(to bottom, #fafafa 0%, #d8d8d8 100%);
+	border-top: #FFF solid 4px;
+	border-bottom: #FFF solid 2px;
+	padding-top: 120px;
+	font-family: 'Poiret One', cursive;
+	// color: #FFF;
 	}
 
-#bloco3{
-	color: #FFF;
-	height: 300px;
-	padding-top: 20px;
-	background-color: rgb(27, 27, 27);
-	& p{
-		font-family: 'Sacramento', cursive;
+#competencias{
+	background-image: url(../../img/fundoCompetencia.jpg);
+	background-position: center center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size:  cover;
+	background-color: #EEEEEE;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	& h1{
+		color: rgb(233, 127, 127);
+		text-decoration: none;
 	}
+	& i{
+		color: rgb(233, 127, 127);
+		font-size: 3rem;
+		margin: 20px;
 	}
+}
 
 #projetos{
 	padding: 20px;
-	background: linear-gradient(to bottom, rgb(255, 255, 255) 0%, #e3e3e4 100%);
+	// background: linear-gradient(to bottom, #3f3f3f 0%, #171718 100%);	
+	background-image: url(../../img/fundoProjetos.jpg);
+	background-position: center center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size:  cover;
+	background-color: rgb(0, 0, 0);
 	& .container{
 		margin: auto;
+		color: #FFF;
 	}
 	& .card{
 		margin-bottom: 20px;
 		box-shadow: 0px 8px 10px #b1afaf;
+	}& #algPro{
+		font-family: 'Sacramento', cursive;
+		color: rgb(255, 255, 255);
+		text-shadow: #000 2px 3px 20px;
+		margin-bottom: 50px;
 	}
+	& .row{
+		height: 400px;
 	}
+	& hr{
+		background-color: #b1afaf;
+	}
+	& .btn{
+		width: 10rem;
+		margin: 25px;
+		background: linear-gradient(to bottom, #f8b539 0%, #c96c02 100%);
+		border: none;
+		box-shadow: rgb(70, 70, 70) 1px 6px 20px;
+		&:hover{
+		background: linear-gradient(to bottom, #f7bb4c 0%, #ff8800 100%);
+		}
+	}
+}
+
+#contato{
+	height: 650px;	
+	background: linear-gradient(to bottom, #fafafa 0%, #d8d8d8 100%);
+	border-top: #FFF solid 4px;
+	border-bottom: #FFF solid 2px;
+	padding-top: 30px;
+	font-family: 'Poiret One', cursive;
+	background-image: url(../../img/fundoCompetencia.jpg);
+	background-position: center center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size:  cover;
+	background-color: #EEEEEE;
+	& .faleComigo{
+		font-family: 'Poiret One', cursive;
+		font-size: 1.5rem;
+		margin: 30px 0px;
+	}
+	& .card{
+		margin: 30px 0px;
+		background-color: #FFF;
+		box-shadow: rgb(212, 211, 211) 1px 16px 30px;
+	}
+	& form{
+		padding: 10px;
+		& .form-group{
+			font-family: 'Courier New', Courier, monospace;
+		}& label{
+			font-family: 'Poiret One', cursive;
+		}
+	}
+	& .btn{
+		width: 10rem;
+		background: linear-gradient(to bottom, #f8b539 0%, #c96c02 100%);
+		border: none;
+		box-shadow: rgb(168, 167, 167) 1px 6px 20px;
+		&:hover{
+			background: linear-gradient(to bottom, #f7bb4c 0%, #ff8800 100%);
+		}
+	}
+}
 
 #bloco5{
-	height: 400px;
+	height: 700px;
+	padding: 0px;
+	margin: 0px;
 	background-color: rgb(174, 224, 222);
 	}
 
@@ -107,35 +194,85 @@ $projeto: 'Sacramento';
 	}
 
 #bloco8{
-	height: 200px;
-	padding-top: 50px;
-	background: linear-gradient(to bottom,  #3f3f3f 0%, #000000 100%);
+	// height: 250px;
+	padding: 30px;
+	// background: linear-gradient(to bottom,  #3f3f3f 0%, #000000 100%);
+	background-color:#000000;
+	& .encontreMe{		
+		font-family: 'Poiret One', cursive;
+		color: #b1afaf;
+	}
+	& ul{
+		margin-top: 20px;
+	}
 	& i{
-		margin: 30px;
-		font-size: 3.5rem;
+		margin: 20px;
+		font-size: 3rem;
 		color: rgb(112, 112, 112);
 		opacity: none;
 		&:hover{
 			color: rgb(192, 192, 192);
 		}
 	}
-	
+	#direitos{
+		background-color: #000;
+		color: #e3e3e4;
+		& p{
+			font-family: 'Poiret One', cursive;
+		}
+		& span{
+			color: #FFA500;
+			font-size: 20px;
+			font-family: 'Parisienne', cursive;
+		}
+	}
 }
 #pro{
 	margin: 15px;
 }
 
-#direitos{
-	height: 100px;
-	background-color: #000;
-	color: #e3e3e4;
-	& p{
-		font-family: 'Poiret One', cursive;
-		padding-top: 15px;
-	}
-	& span{
-		color: #FFA500;
-		font-size: 20px;
-		font-family: 'Parisienne', cursive;
-	}
+
+
+// ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬ Botão topo ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);
+
+.btn_topo {
+position:fixed;
+opacity:0;
+visibility:hidden;
+overflow:hidden;
+text-align:center;
+z-index:99;
+background-color:#92590f;
+background: linear-gradient(to bottom, #d69c30 0%, #a55902 100%);
+box-shadow: rgb(146, 145, 145) 0px 6px 20px;
+color:#fff;
+width:50px;
+height:50px;
+line-height:44px;
+right:25px;
+bottom:-25px;
+padding-top:2px;
+border-radius:50px;
+transition:all .5s ease-in-out;
+transition-delay:.2s;
 }
+
+.btn_topo:hover {
+background: linear-gradient(to bottom, #f7bb4c 0%, #ff8800 100%);
+color:#fff;
+transition:all .2s ease-in-out;
+transition-delay:0;
+}
+
+.btn_topo.show {
+visibility:visible;
+cursor:pointer;
+opacity:1;
+bottom:25px;
+}
+
+.btn_topo i.fa {
+line-height:inherit;
+}
+// ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬ Fim Botão topo ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
